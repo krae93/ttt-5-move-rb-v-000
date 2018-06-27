@@ -10,3 +10,5 @@ end
 def update_array_at_with(arry, index, value)
   arry[index] = value
 end
+
+update_array_at_with(board, 0, "X")
