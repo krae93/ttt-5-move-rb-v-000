@@ -3,3 +3,8 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+def update_array_at_with(arry, index, value)
+  arry[index] = value
+end
+
+update_array_at_with(board, 0, "X")
